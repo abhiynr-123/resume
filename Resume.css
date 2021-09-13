@@ -52,6 +52,7 @@ body{
 }
 #socialicon li a img:hover{
     box-shadow: 1px 0px 2pc 19px rgb(243, 231, 231);
+    border: 2px solid whitesmoke;
 
 }
 #socialicon li a img{
@@ -74,4 +75,113 @@ body{
     text-align: center;
     font-size: 33px;
     font-style: revert;
+}
+.stylefont{
+    font-size: 70px;
+    color: rgb(20, 52, 94);
+    text-transform: uppercase;
+}
+#skill-display{
+    height:50vh;
+    width: 90vw;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:rgb(207, 198, 198);
+    margin: 20px;
+    margin: 65px;
+    margin-top: -38px;
+    justify-content:space-evenly;
+    flex-direction: column;
+}
+#skill-display:hover{
+    box-shadow: 0px 0px 5px 5px gray;
+}
+#sk1b{
+    height: 35px;
+    width: 230px;
+    background-color: darkgray;
+    margin: 60px;
+    border: 2px solid black;
+}
+#sk1b:hover{ box-shadow:  0px 0px 7px 5px rgb(153, 238, 42);
+}
+#sk2b:hover{ box-shadow:  0px 0px 7px 5px rgb(50, 228, 228);
+}
+#sk3b:hover{ box-shadow:  0px 0px 7px 5px rgb(233, 121, 56);
+}
+#sk4b:hover{ box-shadow:  0px 0px 7px 5px rgb(241, 48, 232);
+}
+#sk5b:hover{ box-shadow:  0px 0px 7px 5px rgb(87, 83, 87);
+}
+#sk6b:hover{ box-shadow:  0px 0px 7px 5px rgb(235, 83, 83);
+}
+#sk1progress{
+    height: 35px;
+    width: 175px;
+    background-color: rgb(153, 238, 42);
+}
+#sk2b{
+    height: 35px;
+    width: 230px;
+    background-color: darkgray;
+    margin: 60px;
+    border: 2px solid black;
+}
+#sk2progress{
+    height: 35px;
+    width: 150px;
+    background-color: rgb(50, 228, 228);
+}
+#sk3b{
+    height: 35px;
+    width: 230px;
+    background-color: darkgray;
+    margin: 60px;
+    border: 2px solid black;
+}
+#sk3progress{
+    height: 35px;
+    width: 100px;
+    background-color: rgb(233, 121, 56);
+}
+#sk4b{
+    height: 35px;
+    width: 230px;
+    background-color: darkgray;
+    margin: 60px;
+    border: 2px solid black;
+}
+#sk4progress{
+    height: 35px;
+    width: 200px;
+    background-color: rgb(241, 48, 232);
+}
+#sk5b{
+    height: 35px;
+    width: 230px;
+    background-color: darkgray;
+    margin: 60px;
+    border: 2px solid black;
+}
+#sk5progress{
+    height: 35px;
+    width: 170px;
+    background-color: rgb(87, 83, 87);
+}
+#sk6b{
+    height: 35px;
+    width: 230px;
+    background-color: darkgray;
+    margin: 60px;
+    border: 2px solid black;
+}
+#sk6progress{
+    height: 35px;
+    width: 140px;
+    background-color: rgb(235, 83, 83);
+}
+.skillfont{
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
 }
