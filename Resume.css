@@ -185,3 +185,138 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     margin: auto;
 }
+#skills h1::before{
+    content: '';
+    display: inline-block;
+    height: 55px;
+    width: 55px;
+    margin-right: 8px;
+    background-image: url(./beforeskill.jpg);
+    background-size: contain;
+}
+#exp h1::before{
+    content: '';
+    display: inline-block;
+    height: 52px;
+    width: 81px;
+    margin-right: -16px;
+    background-image: url(./beforexp.jpg);
+    background-size: contain;
+}
+#outer-exp{
+    width: 80%;
+    height: 769px;
+    position: relative;
+    margin-left: 127px;
+    background-color:rgb(207, 198, 198);
+    padding-top: 4px;
+    padding-bottom: 36px;
+}
+.inner-exp{
+    min-height: 150px;
+    position: relative;
+    width: 40%;
+    left: 5%;
+    background-color: darkgray;
+    border: 2px solid black;
+    margin: 5px;
+    margin-top: 38px;
+    margin-left: -16px;
+}
+.inner-exp:nth-child(2n){
+    margin-left: 51%;
+    margin-bottom: 40px;
+}
+.inner-exp:hover{
+    box-shadow: 0px 0px 5px 5px gray;
+}
+.comstyle{
+    font-size:x-large;
+    text-align:center;
+    font-weight: bolder;
+}
+#outer-exp:hover{
+    box-shadow: 0px 0px 5px 5px gray;
+}
+.inner-exp p{
+    font-weight: 600;
+    font-size: 17px;
+}
+#outer-edu{
+    width: 80%;
+    height: 573px;
+    position: relative;
+    margin-left: 127px;
+    background-color:rgb(207, 198, 198);
+    padding-top: 4px;
+    padding-bottom: 36px;
+}
+#outer-edu:hover{
+    box-shadow: 0px 0px 5px 5px gray;
+}
+#inner-edu{
+    min-height: 150px;
+    position: relative;
+    width: 40%;
+    left: 5%;
+    background-color: darkgray;
+    border: 2px solid black;
+    margin: 5px;
+    margin-top: 38px;
+    margin-left: -16px;
+}
+#inner-edu:nth-child(2n){
+    margin-left: 51%;
+    margin-bottom: 40px;
+}
+#inner-edu:hover{
+    box-shadow: 0px 0px 5px 5px gray;
+}
+#inner-edu h2{
+    margin-left: 277px;
+
+}
+#inner-edu h3{
+    margin-left: 174px;
+}
+#education h1::before{
+    content: '';
+    display: inline-block;
+    height: 55px;
+    width: 55px;
+    margin-right: 8px;
+    background-image: url(./beforeeducation.jpg);
+    background-size: contain;
+}
+#time-line-expressway{
+    position:absolute;
+    width: 0;
+    height: 75%;
+    left: 50%;
+    border: 3px dashed rgba(15, 57, 134, 0.575);
+    top: 10%;
+}
+#plane{
+    position:sticky; 
+    top: 25%;
+    transform: rotate(180deg);
+}
+#plane-expressway-edu{
+    height: 85%;
+    width: 0;
+    position: absolute;
+    top: 10%;
+    right: 50%;
+    border: 3px dashed rgba(15, 57, 134, 0.575);
+}
+#plane-edu{
+    position: sticky;
+    top: 20%;
+    transform: rotate(180deg);
+}
+#contact-area{
+    margin-top: 40px;
+    height: 90vh;
+    width: 100vw;
+    background: linear-gradient(rgb(167, 167, 228),rgb(77, 77, 184));
+}
