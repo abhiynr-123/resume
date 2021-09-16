@@ -315,8 +315,105 @@ body{
     transform: rotate(180deg);
 }
 #contact-area{
-    margin-top: 40px;
+    margin: 40px;
     height: 90vh;
-    width: 100vw;
-    background: linear-gradient(rgb(167, 167, 228),rgb(77, 77, 184));
+    width: 90vw;
+    background: linear-gradient(rgb(22 22 37),rgb(20, 20, 70),blue);
+    border: 2px solid black;
+}
+.stylefont-con{
+    font-size: 60px;
+    color: rgb(231, 235, 240);
+    text-transform:capitalize;
+}
+#message-part input{
+    display:block;
+    line-height: 20px;
+
+}
+#contact-area h1::before{
+    content: '';
+    display: inline;
+    height: 50px;
+    width: 50px;
+    margin-right: 11px;
+    background-image: url(./business-card.png);
+    background-size: cover;
+
+}
+#message-part{
+    border: 2px solid white;
+    width: 25%;
+    position: absolute;
+    margin-left: 91px;
+}
+#mess{
+    margin: 28px;
+}
+#Send{
+    margin-left: 37%;
+    margin-bottom: 10%;
+}
+#mess-area{
+    margin: 28px;
+}
+#line-contact{
+    display: inline-block;
+    height: 70vh;
+    margin-left: 50%;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+#aside{
+    display: inline-block;
+    height: 52%;
+    width: 28%;
+    /* border: 2px solid white; */
+    margin-top: 0px;
+    position: absolute;
+    margin-left: 132px;
+}
+#aside ul li{
+   list-style: none;
+   color: blanchedalmond;
+   font-weight: 900;
+   font-size:larger;
+   line-height: 41px;
+}
+#li1c::before{
+    content: '';
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background-image: url(./beforecity.jpg);
+    background-size: cover;
+}
+#li2c::before{
+    content: '';
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background-image: url(./beforrphone.jpg);
+    background-size: cover;
+}
+#li3c::before{
+    content: '';
+    display: inline-block;
+    height: 30px;
+    width: 33px;
+    background-image: url(./befoemail.jpg);
+    background-size: cover;
+}
+#aside #addresss::before{
+    content: '';
+    display: inline-block;
+    height: 36px;
+    width: 36px;
+    background-image: url(./beforeaddress.jpg);
+    background-size: cover;
+}
+#addresss{
+    font-size: xx-large;
+    color: lemonchiffon;
+    font-weight: 900;
 }
